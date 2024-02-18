@@ -27,6 +27,7 @@
       </div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <script setup>
@@ -70,6 +71,10 @@ const { data: posts } = await useSanityQuery(query);
 .post-img img {
   height: 100%;
   width: auto;
+}
+
+.post-text__excerpt {
+  font-family: var(--rare-body-font);
 }
 
 a {

@@ -16,9 +16,9 @@
                 <li class="nav-item">
                   <NuxtLink to="/members">Our Members</NuxtLink>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <NuxtLink to="/">Games</NuxtLink>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <NuxtLink to="/blog">Blog</NuxtLink>
                 </li>
@@ -34,12 +34,12 @@
             </div>
             <nav class="header-nav__nav-right nav-list-items">
               <ul class="nav-list nav-list-right">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <NuxtLink to="/">Schedule</NuxtLink>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                   <NuxtLink to="/">Contact</NuxtLink>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a
                     href="https://soardogg.com/vendors/rare-assassins/"

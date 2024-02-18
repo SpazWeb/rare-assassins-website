@@ -101,6 +101,7 @@
       <Sidecontainer />
     </div>
   </div>
+  <Footer />
 </template>
 
 <script setup>
