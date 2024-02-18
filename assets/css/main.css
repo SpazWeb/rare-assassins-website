@@ -1,0 +1,45 @@
+:root {
+  --rare-accent-font: Kenny, sans-serif;
+  --rare-second-font: Android, sans-serif;
+  --rare-body-font: Source Sans Pro, sans-serif;
+  --rare-white: #fff;
+  --rare-black: #000;
+  --rare-black-1: #181818;
+  --rare-black-2: #292929;
+  --rare-grey: #272727;
+  --rare-grey-1: #3e3e3e;
+  --rare-grey-2: #636161;
+  --rare-grey-3: #7f828b;
+  --rare-grey-4: #979797;
+  --rare-green: #03b00c;
+  --rare-green-1: #033d06;
+  --rare-green-light: #03f00f;
+  --rare-primary: #03b00c;
+  --rare-text-dark: #292929;
+  --rare-text-color: #fff;
+  --rare-text-color-inverse: #000;
+  --rare-bg: #000;
+  --rare-bg-inverse: #fff;
+  --rare-header-height: 100px;
+  --rare-header-height-new: 80px;
+  --rare-header-height-mobile: 55px;
+  --rare-header-height-mobile-new: 75px;
+  --rare-footer-height-mobile: 60px;
+  --rare-page-side-padding: 2%;
+  --rare-app-height: 100vh;
+  --rare-app-width: calc(100vw - 20px);
+  --rare-miniplayer-active-height: 28.125vw;
+}
+
+:root body.rare-light {
+  --rare-text-color: #000;
+  --rare-text-color-inverse: #fff;
+  --rare-bg: #fff;
+  --rare-bg-inverse: #000;
+}
+
+body {
+  background-color: var(--rare-black-2);
+  color: var(--rare-white);
+}
+
