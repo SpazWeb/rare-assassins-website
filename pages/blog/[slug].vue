@@ -12,7 +12,7 @@
               <h1>{{ post.title }}</h1>
             </div>
             <div class="slug-blog__text-body">
-                <BlockContent :blocks="post.body" />
+              <BlockContent :blocks="post.body" :serializers="serializers" />
             </div>
           </div>
         </div>
@@ -34,7 +34,11 @@ const { data: post } = await useSanityQuery(query, {
 });
 </script>
 <script>
+import inlineImage from "~/components/inlineImage.vue";
 export default {
+  components: {
+    inlineImage,
+  },
   props: {
     post: {
       type: Object,
@@ -42,6 +46,15 @@ export default {
     },
   },
   components: { BlockContent },
+  data() {
+    return {
+      serializers: {
+        types: {
+          image: inlineImage,
+        },
+      },
+    };
+  },
 };
 </script>
 
@@ -59,7 +72,7 @@ export default {
 }
 
 .slug-blog {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   margin-top: 25px;

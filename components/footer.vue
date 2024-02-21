@@ -8,14 +8,14 @@
           </div>
         </div>
         <div class="footer-block">
-            <h2 class="footer-heading">NEED HELP?</h2>
-            <div class="help-text">
-              <p>
-                For all inquiries related to Rare Assassins, reach out to
-                rareassassinsclan@gmail.com and our team would be happy to help.
-                We appreciate all of your support! <strong>#BeRare</strong>
-              </p>
-            </div>
+          <h2 class="footer-heading">NEED HELP?</h2>
+          <div class="help-text">
+            <p>
+              For all inquiries related to Rare Assassins, reach out to
+              rareassassinsclan@gmail.com and our team would be happy to help.
+              We appreciate all of your support! <strong>#BeRare</strong>
+            </p>
+          </div>
         </div>
         <div class="footer-block">
           <h2 class="footer-heading">MAIN MENU</h2>
@@ -107,12 +107,14 @@ const { data: social } = await useSanityQuery(query);
 
 .footer-heading {
   margin: 0;
+  font-size: 1rem;
 }
 
 .footer-details {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-size: 1rem;
 }
 
 .footer-details li {

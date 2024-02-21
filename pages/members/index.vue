@@ -44,7 +44,7 @@ const { data: members } = await useSanityQuery(query);
   width: 80%;
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -56,7 +56,7 @@ const { data: members } = await useSanityQuery(query);
 
 .member-img {
   width: 100%;
-  height: 238.58px;
+  height: auto;
 }
 
 .member-img img {
