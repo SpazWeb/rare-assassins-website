@@ -14,7 +14,7 @@
             <nav class="header-nav__nav-left nav-list-items">
               <ul class="nav-list nav-list-left">
                 <li class="nav-item">
-                  <NuxtLink to="/members">Our Members</NuxtLink>
+                  <NuxtLink to="/members">Roster</NuxtLink>
                 </li>
                 <!-- <li class="nav-item">
                   <NuxtLink to="/">Games</NuxtLink>

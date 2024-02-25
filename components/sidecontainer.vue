@@ -27,7 +27,7 @@
               class="side-member"
             >
               <div class="side-member-img">
-                <nuxtLink :to="`/members/${member.slug}`">
+                <nuxtLink :to="`/members/${member.slug.current}`">
                   <img
                     :src="$urlFor(member.image)"
                     :alt="`{{ member.gamertag }}`"
@@ -67,6 +67,7 @@ const { data: members } = await useSanityQuery(membersQuery);
   font-size: 0.5rem;
   display: flex;
   justify-content: center;
+  font-size: 0.5rem;
 }
 
 .side-post {
@@ -76,17 +77,7 @@ const { data: members } = await useSanityQuery(membersQuery);
   height: 25px;
   padding: 25px;
   align-items: center;
-}
-
-.side-post-img {
-  width: 25%;
-  height: auto;
-  padding-right: 25px;
-}
-
-.side-post-img img {
-  width: 100%;
-  height: 100%;
+  font-size: 1rem;
 }
 
 .side-members-container {
@@ -99,6 +90,7 @@ const { data: members } = await useSanityQuery(membersQuery);
   font-size: 0.5rem;
   display: flex;
   justify-content: center;
+  font-size: 0.5rem;
 }
 
 .side-members-wrapper {
